@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "eslint:recommended", 
+    "plugin:astro/recommended"
+  ],
+  "plugins": [
+    "astro"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  }
+}

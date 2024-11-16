@@ -1,12 +1,209 @@
----
-import CardBento from "./CardBento.astro"
----
-
-<section>
-  <h2>Meet Genius</h2>
-  <p>Our AI-driven assistant is designed to decode complex financial figures and illuminate key trends in your business.</p>
-  <div class="grid lg:grid-cols-6">
-    <CardBento/>
-    <CardBento/>
+<section class="mx-auto max-w-7xl p-6 py-16 md:py-24 lg:px-8">
+  <div class="grid max-w-xl items-start justify-between gap-5">
+    <div class="text-4xl/[1.07] font-bold tracking-tight md:text-5xl/[1.07]">
+      <span
+        class="bg-gradient-to-br from-white to-zinc-500 bg-clip-text text-transparent"
+        >Meet Genius</span>
+    </div><div class="text-lg text-zinc-400/80">
+      Our AI-driven assistant is designed to decode complex financial figures
+      and<!-- -->
+      <span class="text-zinc-200">illuminate key trends</span> in your business.
+    </div>
+  </div><div class="mt-16 grid gap-4 lg:grid-cols-2 lg:gap-6 xl:gap-8">
+    <div
+      class="col-span-full flex h-[480px] flex-col overflow-hidden rounded-2xl bg-zinc-900/50 ring-1 ring-zinc-100/10 lg:col-span-1">
+      <div
+        class="relative flex h-full w-full items-center justify-center overflow-hidden px-3 pt-3">
+        <div
+          class="relative h-full w-full rounded-xl [mask:radial-gradient(65%_65%_at_50%_40%,rgba(0,0,0,0.9)_35%,rgba(0,0,0,0)_100%)]">
+          <div
+            class="absolute inset-x-0 top-16 h-40 w-full rounded-full bg-gradient-to-r from-cyan-600 via-sky-500 to-violet-600 opacity-25 blur-[6rem]">
+          </div><div
+            class="absolute left-0 top-0 h-full w-full min-w-[1024px] opacity-20 [mask:linear-gradient(black,transparent)]">
+            <svg viewBox="0 0 750 400" preserveAspectRatio="xMinYMin slice"
+              ><pattern
+                id="diagonalHatch"
+                patternUnits="userSpaceOnUse"
+                width="4"
+                height="8"
+                patternTransform="rotate(45 2 2)"
+                ><path d="M -1,2 l 6,0" stroke="#A3A7B1" stroke-width=".5"
+                ></path></pattern
+              ><rect
+                x="0"
+                y="0"
+                width="100%"
+                height="100%"
+                fill="url(#diagonalHatch)"></rect></svg>
+          </div>
+        </div><div
+          class="absolute h-full max-h-[300px] w-11/12 max-w-[500px] rounded-lg border border-zinc-100/5 bg-zinc-900 [mask:linear-gradient(black,black_75%,transparent)] md:w-4/5">
+          <div class="relative flex h-full w-full items-center justify-center">
+            <svg
+              class="absolute inset-x-0 bottom-0 -z-10"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 504 230"
+              ><path
+                d="M450 50v180M354 50v180M258 50v180M162 50v180M66 50v180"
+                stroke="#fff"
+                stroke-opacity=".08"
+                stroke-dasharray="2 2"></path><g filter="url(#a)" fill="#0081F1"
+                ><path
+                  d="M349.55 162.62c.06.07.2.07.32.07.71 0 1.23-.46 1.36-1.04a1.4 1.4 0 0 0-1.03-1.68l-4.6-1.17c-.07-.06-.2-.06-.33-.06a1.27 1.27 0 0 0-1.36 1.03c-.13.32-.06.71.13 1.04.2.32.52.58.91.65l4.6 1.16Zm7.84-3.24c.26.52.7.84 1.3.84.15 0 .3-.04.49-.09l.15-.03 4.34-1.95c.32-.13.58-.45.71-.78a1.6 1.6 0 0 0-.06-1.1 1.42 1.42 0 0 0-1.3-.84c-.2 0-.38.06-.58.13l-4.34 1.94c-.71.33-1.04 1.17-.71 1.88Zm-21.64-.19c.07.06.2.06.33.06.64 0 1.23-.45 1.36-1.1.13-.32.06-.71-.13-1.03-.2-.33-.52-.59-.91-.65l-4.6-1.17c-.06-.06-.2-.06-.32-.06-.65 0-1.23.45-1.36 1.1a1.4 1.4 0 0 0 1.03 1.68l4.6 1.17Zm-13.8-3.44c.07.07.2.07.33.07.65 0 1.23-.45 1.36-1.1a1.4 1.4 0 0 0-1.04-1.69l-4.6-1.16c-.06-.07-.2-.07-.32-.07a1.4 1.4 0 0 0-1.36 1.1 1.4 1.4 0 0 0 1.04 1.69l4.6 1.16Zm48.33-2.26c.26.52.71.84 1.3.84.1 0 .2-.02.3-.04l.21-.03 4.34-2c.71-.33 1.04-1.17.71-1.88a1.42 1.42 0 0 0-1.88-.71l-4.33 1.94a1.4 1.4 0 0 0-.72.78c-.13.39-.06.77.07 1.1Zm-62.12-1.17c.06.07.2.07.32.07a1.4 1.4 0 0 0 1.36-1.04c.2-.71-.26-1.49-1.03-1.68l-4.6-1.17c-.07-.06-.2-.06-.33-.06a1.27 1.27 0 0 0-1.36 1.03c-.13.32-.06.71.13 1.04.2.32.52.58.9.65l4.6 1.16Zm-13.8-3.43c.06.06.2.06.32.06.65 0 1.17-.45 1.36-1.03a1.2 1.2 0 0 0-.13-1.04 1.34 1.34 0 0 0-.9-.65l-4.6-1.16c-.07-.07-.2-.07-.33-.07-.64-.06-1.16.39-1.36 1.04a1.4 1.4 0 0 0 1.04 1.68l4.6 1.17Zm88.87-1.36c.26.52.71.84 1.3.84.19 0 .38-.06.58-.13l4.34-1.94c.71-.33 1.04-1.17.71-1.88a1.42 1.42 0 0 0-1.3-.84c-.19 0-.38.06-.57.13l-4.35 1.94a1.42 1.42 0 0 0-.7 1.88Zm-102.73-2.07c.06.06.2.06.32.06.71 0 1.23-.45 1.36-1.04a1.4 1.4 0 0 0-1.03-1.68l-4.6-1.17c-.07-.06-.2-.06-.33-.06a1.27 1.27 0 0 0-1.36 1.03c-.13.33-.06.72.13 1.04.2.33.52.58.9.65l4.6 1.17Zm115.62-3.83c.26.52.71.84 1.3.84.2 0 .39-.06.52-.13l4.34-1.94a1.42 1.42 0 0 0 .7-1.88 1.41 1.41 0 0 0-1.87-.7l-4.34 1.93a1.4 1.4 0 0 0-.71.78c-.13.39-.07.78.06 1.1Zm-129.42.39c.06.07.2.07.32.07.65 0 1.24-.4 1.37-.97.06-.4 0-.78-.2-1.1-.2-.33-.45-.59-.84-.65l-4.6-1.17c-.06-.06-.2-.06-.32-.06-.65 0-1.17.38-1.37 1.03-.12.33-.06.71.13 1.04.2.32.52.58.91.65l4.6 1.16Zm142.38-6.28c.26.52.71.84 1.3.84.15 0 .3-.04.49-.09l.15-.04 4.34-1.94c.32-.13.58-.46.71-.78a1.6 1.6 0 0 0-.06-1.1 1.42 1.42 0 0 0-1.3-.84c-.19 0-.38.06-.58.13l-4.34 1.94a1.42 1.42 0 0 0-.71 1.88Zm12.76-6.48c0 .78.65 1.36 1.42 1.36.2 0 .4 0 .59-.06l4.34-1.95c.7-.32 1.03-1.16.7-1.88a1.42 1.42 0 0 0-1.29-.84c-.19 0-.39.07-.58.13l-4.34 1.94c-.52.26-.84.72-.84 1.3Zm13.08-5.38c.26.52.72.84 1.3.84.2 0 .39-.06.58-.13l4.34-1.94c.72-.32 1.04-1.16.72-1.88-.33-.7-1.17-1.03-1.88-.7l-4.34 1.93a1.42 1.42 0 0 0-.72 1.88Zm13.28-4.92c.13.65.72 1.1 1.36 1.1.07 0 .2 0 .26.07l4.67-.91a1.45 1.45 0 0 0 1.16-1.43 1.4 1.4 0 0 0-1.42-1.42h-.26l-4.67.97c-.38.06-.7.26-.9.58-.2.26-.26.65-.2 1.04Zm13.93-2.79c.13.65.71 1.1 1.36 1.1h.26l4.66-.97c.4-.06.71-.26.9-.58.2-.26.27-.65.2-1.04a1.39 1.39 0 0 0-1.36-1.1h-.26l-4.66.97c-.39.07-.71.26-.9.59-.2.26-.26.64-.2 1.03Zm13.87-2.85c.19.65.77 1.1 1.42 1.1.13 0 .2 0 .32.07l4.66-.97c.65-.13 1.1-.71 1.1-1.36 0-.78-.64-1.43-1.42-1.43h-.26l-4.73.97c-.39.07-.71.26-.9.59-.2.26-.26.64-.2 1.03Zm13.98-3.11c0 .78.65 1.43 1.43 1.43.06 0 .2 0 .32-.07l4.67-.97c.38-.06.7-.26.9-.58.2-.32.26-.65.2-1.04-.2-.65-.78-1.1-1.43-1.1h-.26l-4.66.9a1.5 1.5 0 0 0-1.17 1.43Z"
+                ></path></g
+              ><g filter="url(#b)"
+                ><path
+                  d="m6 95.93 60.58-45.08 93.86 30.9 94.96 57.27-.07-3.76L163.61 80a1.8 1.8 0 0 0-.52-.26L67.16 48.2a4.04 4.04 0 0 0-1.23-.19c-.65 0-1.3.13-1.88.52L6 91.66v4.27Z"
+                  fill="#0081F1"></path></g
+              ><path
+                d="M349.55 162.62c.06.07.2.07.32.07.71 0 1.23-.46 1.36-1.04a1.4 1.4 0 0 0-1.03-1.68l-4.6-1.17c-.07-.06-.2-.06-.33-.06a1.27 1.27 0 0 0-1.36 1.03c-.13.32-.06.71.13 1.04.2.32.52.58.91.65l4.6 1.16Zm7.84-3.24c.26.52.7.84 1.3.84.15 0 .3-.04.49-.09l.15-.03 4.34-1.95c.32-.13.58-.45.71-.78a1.6 1.6 0 0 0-.06-1.1 1.42 1.42 0 0 0-1.3-.84c-.2 0-.38.06-.58.13l-4.34 1.94c-.71.33-1.04 1.17-.71 1.88Zm-21.64-.19c.07.06.2.06.33.06.64 0 1.23-.45 1.36-1.1.13-.32.06-.71-.13-1.03-.2-.33-.52-.59-.91-.65l-4.6-1.17c-.06-.06-.2-.06-.32-.06-.65 0-1.23.45-1.36 1.1a1.4 1.4 0 0 0 1.03 1.68l4.6 1.17Zm-13.8-3.44c.07.07.2.07.33.07.65 0 1.23-.45 1.36-1.1a1.4 1.4 0 0 0-1.04-1.69l-4.6-1.16c-.06-.07-.2-.07-.32-.07a1.4 1.4 0 0 0-1.36 1.1 1.4 1.4 0 0 0 1.04 1.69l4.6 1.16Zm48.33-2.26c.26.52.71.84 1.3.84.1 0 .2-.02.3-.04l.21-.03 4.34-2c.71-.33 1.04-1.17.71-1.88a1.42 1.42 0 0 0-1.88-.71l-4.33 1.94a1.4 1.4 0 0 0-.72.78c-.13.39-.06.77.07 1.1Zm-62.12-1.17c.06.07.2.07.32.07a1.4 1.4 0 0 0 1.36-1.04c.2-.71-.26-1.49-1.03-1.68l-4.6-1.17c-.07-.06-.2-.06-.33-.06a1.27 1.27 0 0 0-1.36 1.03c-.13.32-.06.71.13 1.04.2.32.52.58.9.65l4.6 1.16Zm-13.8-3.43c.06.06.2.06.32.06.65 0 1.17-.45 1.36-1.03a1.2 1.2 0 0 0-.13-1.04 1.34 1.34 0 0 0-.9-.65l-4.6-1.16c-.07-.07-.2-.07-.33-.07-.64-.06-1.16.39-1.36 1.04a1.4 1.4 0 0 0 1.04 1.68l4.6 1.17Zm88.87-1.36c.26.52.71.84 1.3.84.19 0 .38-.06.58-.13l4.34-1.94c.71-.33 1.04-1.17.71-1.88a1.42 1.42 0 0 0-1.3-.84c-.19 0-.38.06-.57.13l-4.35 1.94a1.42 1.42 0 0 0-.7 1.88Zm-102.73-2.07c.06.06.2.06.32.06.71 0 1.23-.45 1.36-1.04a1.4 1.4 0 0 0-1.03-1.68l-4.6-1.17c-.07-.06-.2-.06-.33-.06a1.27 1.27 0 0 0-1.36 1.03c-.13.33-.06.72.13 1.04.2.33.52.58.9.65l4.6 1.17Zm115.62-3.83c.26.52.71.84 1.3.84.2 0 .39-.06.52-.13l4.34-1.94a1.42 1.42 0 0 0 .7-1.88 1.41 1.41 0 0 0-1.87-.7l-4.34 1.93a1.4 1.4 0 0 0-.71.78c-.13.39-.07.78.06 1.1Zm-129.42.39c.06.07.2.07.32.07.65 0 1.24-.4 1.37-.97.06-.4 0-.78-.2-1.1-.2-.33-.45-.59-.84-.65l-4.6-1.17c-.06-.06-.2-.06-.32-.06-.65 0-1.17.38-1.37 1.03-.12.33-.06.71.13 1.04.2.32.52.58.91.65l4.6 1.16Zm142.38-6.28c.26.52.71.84 1.3.84.15 0 .3-.04.49-.09l.15-.04 4.34-1.94c.32-.13.58-.46.71-.78a1.6 1.6 0 0 0-.06-1.1 1.42 1.42 0 0 0-1.3-.84c-.19 0-.38.06-.58.13l-4.34 1.94a1.42 1.42 0 0 0-.71 1.88Zm12.76-6.48c0 .78.65 1.36 1.42 1.36.2 0 .4 0 .59-.06l4.34-1.95c.7-.32 1.03-1.16.7-1.88a1.42 1.42 0 0 0-1.29-.84c-.19 0-.39.07-.58.13l-4.34 1.94c-.52.26-.84.72-.84 1.3Zm13.08-5.38c.26.52.72.84 1.3.84.2 0 .39-.06.58-.13l4.34-1.94c.72-.32 1.04-1.16.72-1.88-.33-.7-1.17-1.03-1.88-.7l-4.34 1.93a1.42 1.42 0 0 0-.72 1.88Zm13.28-4.92c.13.65.72 1.1 1.36 1.1.07 0 .2 0 .26.07l4.67-.91a1.45 1.45 0 0 0 1.16-1.43 1.4 1.4 0 0 0-1.42-1.42h-.26l-4.67.97c-.38.06-.7.26-.9.58-.2.26-.26.65-.2 1.04Zm13.93-2.79c.13.65.71 1.1 1.36 1.1h.26l4.66-.97c.4-.06.71-.26.9-.58.2-.26.27-.65.2-1.04a1.39 1.39 0 0 0-1.36-1.1h-.26l-4.66.97c-.39.07-.71.26-.9.59-.2.26-.26.64-.2 1.03Zm13.87-2.85c.19.65.77 1.1 1.42 1.1.13 0 .2 0 .32.07l4.66-.97c.65-.13 1.1-.71 1.1-1.36 0-.78-.64-1.43-1.42-1.43h-.26l-4.73.97c-.39.07-.71.26-.9.59-.2.26-.26.64-.2 1.03Zm13.98-3.11c0 .78.65 1.43 1.43 1.43.06 0 .2 0 .32-.07l4.67-.97c.38-.06.7-.26.9-.58.2-.32.26-.65.2-1.04-.2-.65-.78-1.1-1.43-1.1h-.26l-4.66.9a1.5 1.5 0 0 0-1.17 1.43ZM6 95.93l60.58-45.08 93.86 30.9 94.96 57.27-.07-3.76L163.61 80a1.8 1.8 0 0 0-.52-.26L67.16 48.2a4.04 4.04 0 0 0-1.23-.19c-.65 0-1.3.13-1.88.52L6 91.66v4.27Z"
+                fill="#0081F1"></path><defs
+                ><filter
+                  id="a"
+                  x="255"
+                  y="101.88"
+                  width="248.52"
+                  height="66.81"
+                  filterUnits="userSpaceOnUse"
+                  ><feFlood flood-opacity="0" result="BackgroundImageFix"
+                  ></feFlood><feBlend
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"></feBlend><feGaussianBlur
+                    stdDeviation="3"
+                    result="effect1_foregroundBlur_150_1769"
+                  ></feGaussianBlur></filter
+                ><filter
+                  id="b"
+                  x="0"
+                  y="42"
+                  width="261.4"
+                  height="103.02"
+                  filterUnits="userSpaceOnUse"
+                  ><feFlood flood-opacity="0" result="BackgroundImageFix"
+                  ></feFlood><feBlend
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"></feBlend><feGaussianBlur
+                    stdDeviation="3"
+                    result="effect1_foregroundBlur_150_1769"
+                  ></feGaussianBlur></filter
+                ></defs
+              ></svg
+            ><div class="absolute top-16 px-2 text-xs/4">
+              <div
+                class="flex flex-row items-center gap-2 rounded-md bg-zinc-800 px-2 py-1.5 ring-1 ring-zinc-400/20">
+                <div class="text-orange-400">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-alert-triangle"
+                    ><path
+                      d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"
+                    ></path><path d="M12 9v4"></path><path d="M12 17h.01"
+                    ></path></svg>
+                </div><div class="flex flex-col gap-1">
+                  <div class="font-medium text-zinc-300">
+                    Critical balance alert
+                  </div><div class="max-w-[12rem] text-zinc-400">
+                    You will have less than $2,500 in available funds in May
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><div class="mt-auto w-full space-y-4 px-4 pb-4 sm:px-8 sm:pb-8">
+        <h3 class="text-lg/none font-medium text-zinc-200">
+          Smart forecasting
+        </h3><p class="max-w-sm text-sm text-zinc-400/80">
+          Harness the power of Cobalt's predictive analytics to map out the
+          financial future of your business.
+        </p>
+      </div>
+    </div><div
+      class="col-span-full flex h-[480px] flex-col overflow-hidden rounded-2xl bg-zinc-900/50 ring-1 ring-zinc-100/10 lg:col-span-1">
+      <div
+        class="relative flex h-full w-full transform-gpu items-center justify-center overflow-hidden">
+        <div
+          class="absolute inset-0 h-full w-full [mask:radial-gradient(50%_50%_at_50%,rgba(0,0,0,0.7)_35%,rgba(0,0,0,0)_100%)]">
+          <div
+            class="absolute inset-0 -z-10 h-full w-full text-zinc-300/10 [mask:linear-gradient(black,black_60%,transparent)]">
+            <svg class="h-full w-full" aria-hidden="true"
+              ><defs
+                ><pattern
+                  id="genius-pattern"
+                  width="44"
+                  height="44"
+                  x="50%"
+                  y="100%"
+                  patternUnits="userSpaceOnUse"
+                  ><path d="M.5 200V.5H200" fill="none" stroke="currentColor"
+                  ></path></pattern
+                ></defs
+              ><rect
+                width="100%"
+                height="100%"
+                stroke-width="0"
+                fill="url(#genius-pattern)"></rect></svg>
+          </div>
+        </div><div
+          class="relative flex h-full w-full flex-col items-center justify-end px-4 pb-12 sm:px-8 lg:pb-16">
+          <div class="rounded-xl bg-cyan-400/10 p-2">
+            <div
+              class="select-none rounded-md bg-cyan-600 px-3 py-2 text-sm font-medium text-zinc-200 shadow-[inset_0px_1px_1px_theme(colors.white/30%),0px_1px_3px_theme(colors.cyan.500/35%),0px_0px_0px_1px_theme(colors.cyan.500)]">
+              Hey! How can I help you?
+            </div>
+          </div><div
+            class="mt-20 flex w-full items-center justify-between rounded-md bg-zinc-900 px-3 py-2 shadow-md ring-1 ring-zinc-200/10">
+            <div
+              class="inline-block items-center truncate text-sm text-zinc-400">
+              ✨<!-- -->
+              <span
+                ><span class="inline"></span><div
+                  class="inline-block h-5 w-px translate-y-1 bg-zinc-500">
+                </div></span>
+            </div><button
+              class="relative inline-flex shrink-0 text-sm font-medium text-zinc-200"
+              ><span
+                class="z-10 inline-flex h-full w-full items-center justify-center rounded-md bg-zinc-950 px-3 py-1.5 ring-1 ring-zinc-400/10 transition hover:ring-zinc-400/40 max-md:hidden"
+                >Ask Genius</span
+              ><span
+                class="z-10 inline-flex h-full w-full items-center justify-center rounded-md bg-zinc-950 px-2 py-1.5 ring-1 ring-zinc-400/10 transition hover:ring-zinc-400/40 md:hidden"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-chevron-right"
+                  ><path d="m9 18 6-6-6-6"></path></svg
+                ></span
+              ><span
+                class="absolute h-full w-full blur-[1rem] motion-safe:animate-pulse"
+                style="background:linear-gradient(90deg, rgba(255, 214, 0, 0.2) 0%, rgba(255, 46, 0, 0.3) 10%, rgba(219, 0, 255, 0.5) 25%, rgb(97, 0, 255) 45%, rgb(0, 255, 117) 65%, rgb(0, 255, 255) 80%, rgba(20, 0, 255, 0.3) 100%)"
+              ></span></button>
+          </div>
+        </div>
+      </div><div class="mt-auto w-full space-y-4 px-4 pb-4 sm:px-8 sm:pb-8">
+        <h3 class="text-lg/none font-medium text-zinc-200">
+          Chat with Genius
+        </h3><p class="max-w-sm text-sm text-zinc-400/80">
+          Just ask. With Genius by your side, navigating the financial maze
+          becomes intuitive and effortless.
+        </p>
+      </div>
+    </div>
   </div>
 </section>
